@@ -43,7 +43,7 @@ function Om() {
               Vi er ikke en restaurant, og vi forsøger ikke at være det. Vi er stedet, hvor du kommer for at slappe af, mødes med en god ven, fejre en lille sejr — eller bare unde dig selv et glas, fordi det er torsdag.
             </p>
             <p>
-              Vores menu rummer velvalgte vine, kendte ølmærker og friskbrygget kaffe. Lejlighedsvis afholder vi små arrangementer — vinsmagninger, fyraftenshygge og temaaftener — og når vejret tillader det, rykker vi bordene udenfor i gaden.
+              Vores menu rummer velvalgte vine, ølmærker og friskbrygget kaffe. Lejlighedsvis afholder vi små arrangementer — vinsmagninger, fyraftenshygge og temaaftener — og når vejret tillader det, rykker vi bordene udenfor i gaden.
             </p>
           </div>
         </div>
