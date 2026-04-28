@@ -35,7 +35,7 @@ export function PageHero({
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
       <div className="relative mx-auto max-w-7xl px-6 pb-16 md:pb-24 text-[var(--cream)]">
         <p className="eyebrow text-[var(--gold)] mb-4">{eyebrow}</p>
-        <h1 className="font-serif text-4xl md:text-6xl leading-[1.05] max-w-4xl whitespace-nowrap">{title}</h1>
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl leading-[1.05] max-w-4xl">{title}</h1>
         {subtitle && <p className="mt-5 max-w-xl text-cream/80 text-lg leading-relaxed">{subtitle}</p>}
       </div>
     </section>
