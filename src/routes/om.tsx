@@ -22,7 +22,7 @@ function Om() {
       hero={
         <PageHero
           eyebrow="Vores historie"
-          title="Den lille vinbar i Kirkegade."
+          title="Den lille vinbar i Kirkegade"
           subtitle="Vin Petit No. 12 er født af kærligheden til vin, ærlige samtaler og de aftener, hvor tiden glider lidt langsommere."
           image={hero}
         />
