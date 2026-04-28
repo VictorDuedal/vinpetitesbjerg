@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Vin Petit No. 12 — Stemningsfuld vinbar i Esbjerg" },
-      { name: "description", content: "Lille, hyggelig vinbar på Kirkegade 12 i Esbjerg. Velvalgte vine, kendte ølmærker og god kaffe i en uhøjtidelig og elegant atmosfære." },
+      { name: "description", content: "Lille, hyggelig vinbar på Kirkegade 12 i Esbjerg. Velvalgte vine, ølmærker og god kaffe i en uhøjtidelig og elegant atmosfære." },
       { property: "og:title", content: "Vin Petit No. 12 — Vinbar i Esbjerg" },
       { property: "og:description", content: "Hygge, kvalitet og nærvær midt i Esbjerg. Vin, øl og kaffe i en stemningsfuld vinbar på Kirkegade 12." },
       { property: "og:image", content: hero },
@@ -30,7 +30,7 @@ function Index() {
             En lille vinbar<br />med store stunder.
           </h1>
           <p className="mt-8 max-w-xl text-lg md:text-xl text-cream/85 leading-relaxed font-light">
-            Velkommen til Vin Petit No. 12 — en stemningsfuld vinbar i Kirkegade midt i Esbjerg. Velvalgte vine, kendte ølmærker og god kaffe i en uhøjtidelig atmosfære.
+            Velkommen til Vin Petit No. 12 — en stemningsfuld vinbar i Kirkegade midt i Esbjerg. Velvalgte vine, ølmærker og god kaffe i en uhøjtidelig atmosfære.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link to="/reservation" className="btn-primary">Reservér bord</Link>
