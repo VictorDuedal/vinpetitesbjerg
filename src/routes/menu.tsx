@@ -53,7 +53,7 @@ function Menu() {
       hero={
         <PageHero
           eyebrow="Vores kort"
-          title="Velvalgte vine, kendte ølmærker og god kaffe."
+          title="Velvalgte vine,  ølmærker og god kaffe."
           subtitle="Et lille kort, men et med omtanke. Spørg os gerne — vi anbefaler hjertens gerne."
           image={board}
         />
