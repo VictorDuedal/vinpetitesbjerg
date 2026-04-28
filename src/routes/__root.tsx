@@ -24,14 +24,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vin Petit No. 12 — Vinbar i Esbjerg" },
+      { title: "Vin Petit No. 12 - Vinbar i Esbjerg" },
       { name: "description", content: "Stemningsfuld vinbar på Kirkegade i Esbjerg. Velvalgte vine, kendte ølmærker og god kaffe." },
       { name: "author", content: "Vin Petit No. 12" },
-      { property: "og:title", content: "Vin Petit No. 12 — Vinbar i Esbjerg" },
-      { property: "og:description", content: "Stemningsfuld vinbar på Kirkegade i Esbjerg. Hygge, kvalitet og nærvær." },
+      { property: "og:title", content: "Vin Petit No. 12 - Vinbar i Esbjerg" },
+      { property: "og:description", content: "Stemningsfuld vinbar på Kirkegade i Esbjerg. Velvalgte vine, kendte ølmærker og god kaffe." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Vin Petit No. 12 - Vinbar i Esbjerg" },
+      { name: "twitter:description", content: "Stemningsfuld vinbar på Kirkegade i Esbjerg. Velvalgte vine, kendte ølmærker og god kaffe." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/omfZQl5qloPcq1P0kMiwUV4mw2o1/social-images/social-1777374185769-484091917_10233797053403392_5657467761688464307_n.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/omfZQl5qloPcq1P0kMiwUV4mw2o1/social-images/social-1777374185769-484091917_10233797053403392_5657467761688464307_n.webp" },
     ],
     links: [
       {
