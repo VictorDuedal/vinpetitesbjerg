@@ -59,7 +59,7 @@ function Index() {
         <div className="mx-auto max-w-6xl grid md:grid-cols-3 gap-12">
           {[
             { t: "Vin", d: "Et omhyggeligt udvalgt kort med vine fra både klassiske og nye huse — fortalt med passion og uden løftet pegefinger." },
-            { t: "Øl & kaffe", d: "Kendte ølmærker til den, der foretrækker en kold én — og friskbrygget kaffe, når dagen kalder på en pause." },
+            { t: "Øl & kaffe", d: "Ølmærker til den, der foretrækker en kold én — og friskbrygget kaffe, når dagen kalder på en pause." },
             { t: "Stemning", d: "Stearinlys, varme toner og en uhøjtidelig ro. Når vejret tillader det, dækker vi op udenfor i Kirkegade." },
           ].map((c) => (
             <div key={c.t} className="text-center">
