@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import logo from "@/assets/vin-petit-logo.jpg";
+import logo from "@/assets/vin-petit-logo.png";
 
 const nav = [
   { to: "/", label: "Forside" },
