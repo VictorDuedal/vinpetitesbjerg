@@ -21,23 +21,23 @@ function Index() {
   return (
     <PageLayout>
       {/* Hero */}
-      <section className="relative h-screen min-h-[640px] flex items-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden pt-32 pb-20 md:pt-24 md:pb-16">
         <img src={hero} alt="Vin Petit No. 12 — interiør med stearinlys og vinflasker" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/40 to-black/85" />
         <div className="relative mx-auto max-w-7xl px-6 text-[var(--cream)] w-full">
           <p className="eyebrow text-[var(--gold)] mb-6">Vinbar · Esbjerg · Siden hjertet</p>
-          <h1 className="font-serif text-6xl md:text-8xl leading-[0.95] max-w-4xl">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-[1.05] md:leading-[0.95] max-w-4xl">
             En lille vinbar<br />med store stunder.
           </h1>
-          <p className="mt-8 max-w-xl text-lg md:text-xl text-cream/85 leading-relaxed font-light">
+          <p className="mt-6 md:mt-8 max-w-xl text-base sm:text-lg md:text-xl text-cream/85 leading-relaxed font-light">
             Velkommen til Vin Petit No. 12 — en stemningsfuld vinbar i Kirkegade midt i Esbjerg. Velvalgte vine, ølmærker og god kaffe i en uhøjtidelig atmosfære.
           </p>
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-8 md:mt-10 flex flex-wrap gap-4">
             <Link to="/reservation" className="btn-primary">Reservér bord</Link>
             <Link to="/kontakt" className="btn-outline">Besøg os</Link>
           </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-cream/60 text-xs tracking-[0.4em] uppercase">Kirkegade 12 · 6700 Esbjerg</div>
+        <div className="absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 text-cream/60 text-[0.65rem] md:text-xs tracking-[0.4em] uppercase whitespace-nowrap">Kirkegade 12 · 6700 Esbjerg</div>
       </section>
 
       {/* Velkomst */}
