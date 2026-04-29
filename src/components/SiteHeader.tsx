@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
+import logo from "@/assets/vin-petit-logo.jpg";
 
 const nav = [
   { to: "/", label: "Forside" },
@@ -15,9 +16,8 @@ export default function SiteHeader() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="mx-auto max-w-7xl px-6 py-6 flex items-center justify-between">
-        <Link to="/" className="text-cream font-serif text-xl tracking-wide" onClick={() => setOpen(false)}>
-          <span className="block leading-none">Vin Petit</span>
-          <span className="block text-[0.6rem] tracking-[0.4em] uppercase text-[var(--gold)] mt-1">No. 12 · Esbjerg</span>
+        <Link to="/" className="flex items-center" onClick={() => setOpen(false)} aria-label="Vin Petit No. 12">
+          <img src={logo} alt="Vin Petit No. 12 — Kirkegade Esbjerg" className="h-14 md:h-16 w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
