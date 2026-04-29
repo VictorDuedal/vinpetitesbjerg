@@ -87,7 +87,7 @@ function Kontakt() {
               {[
                 ["Mandag", "Lukket"],
                 ["Tirsdag", "Lukket"],
-                ["Onsdag", "Efter aftale"],
+                ["Onsdag", "Lukket"],
                 ["Torsdag", "15.00 – 22.00"],
                 ["Fredag", "15.00 – 24.00"],
                 ["Lørdag", "14.00 – 24.00"],
